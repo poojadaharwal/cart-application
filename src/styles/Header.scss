@@ -1,12 +1,18 @@
-header{
+.header{
+  // border: 1px solid yellow;
   display: flex;
   justify-content: space-between;
   padding:10px;
   min-height: 50px;
   background-color: rgb(85, 132, 236);
   color:white;
+  position: sticky;
+  top:0px;
+  z-index: 3;
 }
 .rightIcons{
   margin-right: 10px;
+  padding:10px;
+  // border: 1px solid black;
 }
 

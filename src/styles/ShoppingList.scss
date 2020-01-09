@@ -6,16 +6,18 @@
  }
 
  .filter-Container{
-  border:2px solid black;
+  border-right:1px solid rgb(207, 199, 199);
   width: 20%;
   padding: 10px;
+  position: sticky;
+  top: 50px;
  }
  .discount{
   color:green;
   font-weight: bold;
 }
 .itemBox{
-  border:1px solid black;
+  // border:1px solid black;
   min-width:150px;
   min-height:150px;
   margin: 10px;
@@ -31,10 +33,10 @@
   flex-wrap: wrap;
 }
 .right-container{
-    border:2px solid black;
+    // border:2px solid black;
 }
 .sort-container{
-    border:2px solid black;
+    // border:2px solid black;
     min-height: 30px;
     padding: 10px;
 }

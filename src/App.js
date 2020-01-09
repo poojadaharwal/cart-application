@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Route,Switch} from 'react-router-dom';
 import Header from './cart/Header';
 import ShoppingList from './cart/ShoppingList';
+import Footer from './cart/Footer';
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
        
         <Header/>
         <ShoppingList cartItems={this.state.cartItems}/>
+        <Footer/>
       </div>
     );
   }
