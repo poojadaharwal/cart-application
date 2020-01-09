@@ -20,7 +20,7 @@ class Header extends Component {
         <span className="rightIcons">
         <FontAwesomeIcon icon= {faSearch} size="lg"/>
         <Link to="/my-cart">
-        <FontAwesomeIcon icon= {faShoppingCart} size="lg"/>
+        <FontAwesomeIcon icon= {faShoppingCart} size="lg" className="highlight"/>
         </Link>
        
         </span>

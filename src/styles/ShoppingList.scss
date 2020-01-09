@@ -1,7 +1,9 @@
 .shopping-container{
     min-height: 600px;
+    margin-bottom: 50px;
 //    border:2px solid red;
    display: flex;
+
   
  }
 
@@ -13,24 +15,30 @@
   top: 50px;
  }
  .discount{
-  color:green;
+  color:rgb(39, 184, 39);
   font-weight: bold;
+  float: right;
 }
 .itemBox{
-  // border:1px solid black;
+  //border:1px solid black;
   min-width:150px;
   min-height:150px;
   margin: 10px;
 //   position: relative;
+#addToCart{
+  background-color: rgb(245, 199, 84);
+  border-radius: 20px;
+} 
 }
-// .item-content{
-//     position: absolute;
-// }
+.mrp{
+    text-decoration: line-through;
+}
 .itemsContainer{
   width:80%;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 .right-container{
     // border:2px solid black;
@@ -39,5 +47,8 @@
     // border:2px solid black;
     min-height: 30px;
     padding: 10px;
+    .sort-options{
+      cursor: pointer;
+    }
 }
 

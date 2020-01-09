@@ -13,16 +13,19 @@
 }
 .box1{
     // border: 1px solid black;
-    width: 60%;
+    width: 70%;
 }
 .box2{
    
-    width: 40%;
+    width: 30%;
    
     .price-container{
         border: 1px solid black;
         padding: 20px;
         margin-left: 10px;
+        .numerics{
+            float: right;
+        }
     }
 }
 
@@ -39,5 +42,14 @@
        
         display: flex;
         justify-content: space-between;
+        .count-button{
+            border: 1px solid black;
+            padding:5px;
+            border-radius: 50%;
+        }
+        #count{
+            border: 1px solid black;
+            padding:5px;
+        }
     }
 }
