@@ -12,7 +12,8 @@ export default function Footer() {
         position:"fixed",
         bottom:"0px",
         right:"0px",
-        width:"100%"
+        width:"100%",
+        marginTop:"10px"
       }}
     >
       copyright
