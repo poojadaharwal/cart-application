@@ -8,7 +8,11 @@ export default function Footer() {
         padding: "5px",
         textAlign: "center",
         backgroundColor: "rgb(85, 132, 236)",
-        color: "white"
+        color: "white",
+        position:"fixed",
+        bottom:"0px",
+        right:"0px",
+        width:"100%"
       }}
     >
       copyright

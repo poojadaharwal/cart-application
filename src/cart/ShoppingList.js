@@ -12,6 +12,12 @@ class ShoppingList extends Component {
     this.state = {};
   }
 
+  handleAddtoCart=(item,e)=>{
+    console.log(e);
+    console.log(item);
+    this.props.addToCart(item);
+    
+  }
   render() {
     const { cartItems } = this.props;
     return (
@@ -38,7 +44,9 @@ class ShoppingList extends Component {
                       <span className="discount"> {item.discount}% off</span>
                     </p>
                     <p style={{ textAlign: "center" }}>
-                      <button style={{ backgroundColor: "yellow" }}>
+                      <button style={{ backgroundColor: "yellow" }}
+                      onClick={(e)=>this.handleAddtoCart(item,e)}
+                      >
                         Add to cart
                       </button>
                     </p>

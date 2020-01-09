@@ -30,6 +30,7 @@ render(){
     <Typography id="range-slider" gutterBottom>
     Filters
   </Typography>
+  <span>100</span> <sapn>10000</sapn>
   <Slider
   value={range1}
   onChange={this.handleFilter}
@@ -37,6 +38,7 @@ render(){
   aria-labelledby="range-slider"
   getAriaValueText={this.valuetext}
   />
+  <button type="submit">Apply</button>
 
 
     {/* // <p>Filters</p>
